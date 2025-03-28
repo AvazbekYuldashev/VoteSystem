@@ -1,0 +1,25 @@
+### Registration
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+Accept-Language: RU
+
+{
+  "name": "Avazbek",
+  "username": "avaz.yuldashev04@mail.ru",
+  "password": "12345"
+}
+
+### Registration Verification
+GET http://localhost:8080/auth/registration/verification/eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNzQxNTIxMzE2LCJleHAiOjE3NDE1MjQ5MTZ9.-lS83F-i5a-aTA9TwLf64piRmZS3bNPvA38cJ2uZC2L60B7ASqvBF8eAEkomsQq-VHh7EuswFq6kZCszEMz4dw
+
+### Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "avaz.yuldashev04@mail.ru",
+  "password": "12345"
+}
+
+
+

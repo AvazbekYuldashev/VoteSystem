@@ -1,0 +1,13 @@
+### Create
+POST http://localhost:8080/question
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmF6Lnl1bGRhc2hldjA0QG1haWwucnUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiMSIsImlhdCI6MTc0MzE1MTcxMSwiZXhwIjoxNzQzMjM4MTExfQ.6aUVlC0yabw6lPZdFcNUgAhWAQLGwSZVVQLTXCo5UN0ZQKNjQjWMD38RdQqOs5bjTr0J8LX-atQ11-dMz06U7g
+
+{
+  "text": "Eshmat Eshmatov",
+  "surveyId": 1
+}
+
+### Get By survey
+GET http://localhost:8080/question/survey/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmF6Lnl1bGRhc2hldjA0QG1haWwucnUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiMSIsImlhdCI6MTc0MzE1MTcxMSwiZXhwIjoxNzQzMjM4MTExfQ.6aUVlC0yabw6lPZdFcNUgAhWAQLGwSZVVQLTXCo5UN0ZQKNjQjWMD38RdQqOs5bjTr0J8LX-atQ11-dMz06U7g

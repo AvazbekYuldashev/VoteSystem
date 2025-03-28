@@ -1,0 +1,8 @@
+###
+POST http://localhost:8080/post/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmF6Lnl1bGRhc2hldjA0QG1haWwucnUiLCJyb2xlIjoiUk9MRV9BRE1JTixST0xFX1VTRVIiLCJpZCI6IjEiLCJpYXQiOjE3NDE2ODE2OTcsImV4cCI6MTc0MTc2ODA5N30.aZM_0YGtLLtGnWp_W9JalwQPgII_wT_KXweRClGw0Pp6zniUjHDuB02yWPZKAcZypq4nUn8P4ZM9IoucIsQyLQ
+
+{
+  "title": "asdasd"
+}

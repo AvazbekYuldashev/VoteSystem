@@ -1,0 +1,15 @@
+### Create
+POST http://localhost:8080/vote
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmF6Lnl1bGRhc2hldjA0QG1haWwucnUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiMSIsImlhdCI6MTc0MzA3Mjk1NiwiZXhwIjoxNzQzMTU5MzU2fQ.55MiN2nPYsHyCPae-CZhp5UnalO1LJHl-mhkauTG6JUUm2dllshWQbeMYxuzq3LyraHXwKRxYft0auNPRvSY_Q
+
+{
+  "surveyId": 1,
+  "questionId": 3
+}
+
+### Get all
+GET http://localhost:8080/vote
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhdmF6Lnl1bGRhc2hldjA0QG1haWwucnUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImlkIjoiMSIsImlhdCI6MTc0MzA3Mjk1NiwiZXhwIjoxNzQzMTU5MzU2fQ.55MiN2nPYsHyCPae-CZhp5UnalO1LJHl-mhkauTG6JUUm2dllshWQbeMYxuzq3LyraHXwKRxYft0auNPRvSY_Q
+
